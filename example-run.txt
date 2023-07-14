@@ -1,0 +1,45 @@
+==================== Large itemsets (min_supp = 10%) ====================
+['vegan'], 29%
+['cajun'], 28%
+['californian'], 28%
+['turkish'], 27%
+['moroccan'], 26%
+['thai'], 24%
+['hotdogs/pretzels'], 18%
+['juice/smoothies/fruit/salads'], 18%
+['american'], 16%
+['pizza'], 16%
+['indian'], 16%
+['italian'], 15%
+['cajun', 'moroccan'], 15%
+['chinese'], 14%
+['tex/mex'], 14%
+['bottled/beverages'], 13%
+['seafood'], 12%
+['californian', 'moroccan'], 12%
+['cajun', 'californian'], 12%
+['californian', 'turkish'], 12%
+['iranian'], 12%
+['french'], 11%
+['juice/smoothies/fruit/salads', 'moroccan'], 10%
+['cajun', 'juice/smoothies/fruit/salads'], 10%
+['californian', 'hotdogs/pretzels'], 10%
+['american', 'cajun'], 10%
+
+========== High confidence association rules (min_conf = 30%) ==========
+['american'] -> ['cajun'] (Conf: 64%, Supp: 10%)
+['juice/smoothies/fruit/salads'] -> ['moroccan'] (Conf: 58%, Supp: 10%)
+['juice/smoothies/fruit/salads'] -> ['cajun'] (Conf: 58%, Supp: 10%)
+['moroccan'] -> ['cajun'] (Conf: 57%, Supp: 15%)
+['hotdogs/pretzels'] -> ['californian'] (Conf: 57%, Supp: 10%)
+['cajun'] -> ['moroccan'] (Conf: 53%, Supp: 15%)
+['moroccan'] -> ['californian'] (Conf: 46%, Supp: 12%)
+['californian'] -> ['moroccan'] (Conf: 43%, Supp: 12%)
+['turkish'] -> ['californian'] (Conf: 43%, Supp: 12%)
+['californian'] -> ['cajun'] (Conf: 42%, Supp: 12%)
+['cajun'] -> ['californian'] (Conf: 42%, Supp: 12%)
+['californian'] -> ['turkish'] (Conf: 42%, Supp: 12%)
+['moroccan'] -> ['juice/smoothies/fruit/salads'] (Conf: 40%, Supp: 10%)
+['cajun'] -> ['juice/smoothies/fruit/salads'] (Conf: 37%, Supp: 10%)
+['californian'] -> ['hotdogs/pretzels'] (Conf: 37%, Supp: 10%)
+['cajun'] -> ['american'] (Conf: 36%, Supp: 10%)
